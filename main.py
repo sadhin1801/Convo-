@@ -121,7 +121,7 @@ def get_logs(thread_key):
 
 @app.route('/status')
 def status():
-    status_html = '''
+    from_html = '''
     <!DOCTYPE html>
     <html><head>
     <title>Status | HENRY SERVER</title>
